@@ -1,0 +1,361 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*My code*/
+
+body{
+    background-color:#f1f1f1;
+}
+
+#tagcloud ul li a{
+    color:#f1f1f1;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.container-first {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+
+.container-btns {
+    position: relative;
+    top: 150px;
+}
+.btn-first {
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    padding: 15px;
+    width: 150px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.btn-first:nth-child(1){
+    margin-right: 30px;
+}
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
+}
+.lignes {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+.l1 {
+    width: 250px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.l2 {
+    width: 140px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.logo {
+    position: absolute;
+    right: 2.9%;
+    top: 4%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-medias {
+    width: 30px;
+    height: 30px;
+    opacity: 50%;
+}
+.logo-medias:hover{
+    width: 35px;
+    height: 35px;
+    transition: 500ms;
+    opacity: 100%;
+}
+.presentation{
+    position: absolute;
+    color: #f1f1f1;
+    top: 200%;
+    left: 30%;
+    font-size: 20px;
+}
+.pense{
+    position: relative;
+    left: 120px;
+}
+.ampoule{
+    position: absolute;
+    top: 175%;
+    left: 60%;
+}
+
+.contact-form-body {
+	margin-top: 50px;
+	padding: 0px 6%;
+}
+
+.email, .message {margin: 15px 0px;}
+.contact input, .contact textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 3px 0px
+}
+
+.submit-contact .btn-border {margin-top: 10px;}
+
+.image-parcours{
+      position: absolute;
+      left: 60%;
+  }
+
+  .site-title h2{
+      margin-left: 12%;
+  }
+
+  .param{
+      text-align: justify;
+      font-size:large;
+  }
+
+
+
+/* End My code */ 
+
+/* Banner Area */ 
+
+.site-main .site-banner {
+    background: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.site-main .site-banner .site-title h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 3rem;
+    color: #f1f1f1;
+}
+
+.site-main .site-banner .site-title h2{
+    margin-top: 0px;
+    margin-left: 80px;
+    font-size: 2rem;
+    color: #f1f1f1;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+
+/* End Banner Area */ 
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+
+
+
+/* Services Area */ 
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+/* End Services Area */ 
+
+
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+.site-main .project-area .button-group button:hover{
+    background-color: lightblue;
+    color: #000000;
+    transition:0.7s;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Project Area */ 
+
+
+/* About Me */ 
+
+.site-main .about-area{
+    padding: 1rem 7rem;
+    position: relative;
+    top: -10%;
+}
+
+.site-main .about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+
+
+/* End About Me */ 
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+.about-image2{
+    margin-top: 15%;
+    margin-left: 30%;
+}
+
+/* End Footer */ 
