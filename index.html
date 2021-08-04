@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Isalotra</title>
+    <link rel="icon" type="image/svg" href="ressources/icone.svg"/>
+
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <link rel="stylesheet" href="footer.css">
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- AOS animation on scorll -->
+    <link rel="stylesheet" type="text/css" href="aos/aos.css">
+ 
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="text-appear/text-appear.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="jquery-latest.min.js"></script>
+    <script type="text/javascript" src="tagcloud.jquery.js"></script>
+
+    <script type="text/javascript">
+        var settings = {
+        //height taille sphere
+        height: 800,
+        //width sphere
+        width: 800,
+        //rayon du sphere
+        radius: 250,
+        //vitesse de rotation
+        speed: 0.2,
+        //lenteur rotation du sphère
+        slower: 0.999,
+        //delais entre update et position
+        timer: 20,
+        //dépendance d'une taille de police sur l'axe Z
+        fontMultiplier: 17,
+        //balise les styles css au survol
+        hoverStyle: {
+            border: 'none',
+            color: '#0b2e6f'
+        },
+        //étiqueter les styles css lors de la sortie de la souris
+        mouseOutStyle: {
+            border: '',
+            color: ''
+        }
+        };
+        $(document).ready(function(){
+            $('#tagcloud').tagoSphere(settings);
+        });
+    </script>
+
+</head>
+
+<body>
+    <!--  ======================= Start Main Area ================================ -->
+    <main class="site-main">
+
+        <!--  ======================= Barre de navigation =======================  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">MENU</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#apropos">A propos <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#parcours">Parcours</a>
+                    <a class="nav-item nav-link" href="#project">Mes projects</a>
+                    <a class="nav-item nav-link" href="#competence">Compétences</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>  
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner">
+                <div class="container-fluid">
+                    <div class="row ">
+                        <div class="col-lg-5 col-md-12 site-title">
+                            <h1><span>RAKOTONIAINA</span><span><br>Miarantsoa </span><span>Isalotra </span></h1>
+                            <div class="col-lg-12 col-md-12 site-title">   
+                                <h2>
+                                    <span
+                                       class="txt-rotate"
+                                       data-period="2000"
+                                       data-rotate='[ "Data scientist", "Sortant de l&#39ESPA.", "Developpeur freelance", "Programmeur", "Dynamique et motivé." ]'>
+                                    </span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-12">
+                            <div class="head">
+                                <div id="tagcloud">
+                                    <ul>
+                                        <li><a href="#">PYTHON</a></li>
+                                        <li><a href="#">JAVASCRIPT</a></li>
+                                        <li><a href="#">HTML</a></li>
+                                        <li><a href="#">CSS</a></li>
+                                        <li><a href="#">DATASCIENCE</a></li>
+                                        <li><a href="#">MACHINE LEARNING</a></li>
+                                        <li><a href="#">DATA MINING</a></li>
+                                        <li><a href="#">TENSORFLOW</a></li>
+                                        <li><a href="#">PANDAS</a></li>
+                                        <li><a href="#">SQL</a></li>
+                                        <li><a href="#">PHP</a></li>
+                                        <li><a href="#">SCRAPING</a></li>
+                                        <li><a href="#">NUMPY</a></li>
+                                        <li><a href="#">MATHEMATICS</a></li>
+                                        <li><a href="#">PROGRAMMATION</a></li>
+                                        <li><a href="#">R</a></li>
+                                        <li><a href="#">MATHPLOTLIB</a></li>
+                                        <li><a href="#">DATA ENGINEER</a></li>
+                                        <li><a href="#">MONGODB</a></li>
+                                      
+                                        <li><a href="#">PYTHON</a></li>
+                                        <li><a href="#">JAVASCRIPT</a></li>
+                                        <li><a href="#">HTML</a></li>
+                                        <li><a href="#">CSS</a></li>
+                                        <li><a href="#">DATASCIENCE</a></li>
+                                        <li><a href="#">MACHINE LEARNING</a></li>
+                                        <li><a href="#">DATA MINING</a></li>
+                                        <li><a href="#">TENSORFLOW</a></li>
+                                        <li><a href="#">PANDAS</a></li>
+                                        <li><a href="#">SQL</a></li>
+                                        <li><a href="#">PHP</a></li>
+                                        <li><a href="#">SCRAPING</a></li>
+                                        <li><a href="#">NUMPY</a></li>
+                                        <li><a href="#">MATHEMATICS</a></li>
+                                        <li><a href="#">PROGRAMMATION</a></li>
+                                        <li><a href="#">R</a></li>
+                                        <li><a href="#">MATHPLOTLIB</a></li>
+                                        <li><a href="#">DATA ENGINEER</a></li>
+                                        <li><a href="#">MONGODB</a></li>
+                                      
+                                        <li><a href="#">PYTHON</a></li>
+                                        <li><a href="#">JAVASCRIPT</a></li>
+                                        <li><a href="#">HTML</a></li>
+                                        <li><a href="#">CSS</a></li>
+                                        <li><a href="#">DATASCIENCE</a></li>
+                                        <li><a href="#">MACHINE LEARNING</a></li>
+                                        <li><a href="#">DATA MINING</a></li>
+                                        <li><a href="#">TENSORFLOW</a></li>
+                                        <li><a href="#">PANDAS</a></li>
+                                        <li><a href="#">SQL</a></li>
+                                        <li><a href="#">PHP</a></li>
+                                        <li><a href="#">SCRAPING</a></li>
+                                        <li><a href="#">NUMPY</a></li>
+                                        <li><a href="#">MATHEMATICS</a></li>
+                                        <li><a href="#">PROGRAMMATION</a></li>
+                                        <li><a href="#">R</a></li>
+                                        <li><a href="#">MATHPLOTLIB</a></li>
+                                        <li><a href="#">DATA ENGINEER</a></li>
+                                        <li><a href="#">MONGODB</a></li>
+
+                                        <li><a href="#">PYTHON</a></li>
+                                        <li><a href="#">JAVASCRIPT</a></li>
+                                        <li><a href="#">HTML</a></li>
+                                        <li><a href="#">CSS</a></li>
+                                        <li><a href="#">DATASCIENCE</a></li>
+                                        <li><a href="#">MACHINE LEARNING</a></li>
+                                        <li><a href="#">DATA MINING</a></li>
+                                        <li><a href="#">TENSORFLOW</a></li>
+                                        <li><a href="#">PANDAS</a></li>
+                                        <li><a href="#">SQL</a></li>
+                                        <li><a href="#">PHP</a></li>
+                                        <li><a href="#">SCRAPING</a></li>
+                                        <li><a href="#">NUMPY</a></li>
+                                        <li><a href="#">MATHEMATICS</a></li>
+                                        <li><a href="#">PROGRAMMATION</a></li>
+                                        <li><a href="#">R</a></li>
+                                        <li><a href="#">MATHPLOTLIB</a></li>
+                                        <li><a href="#">DATA ENGINEER</a></li>
+                                        <li><a href="#">MONGODB</a></li>
+
+                                        
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--  ======================= End Banner Area =======================  -->
+
+        <!--  ========================= About Area ==========================  -->
+
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="700" data-aos-offset="300">
+                        <div class="about-image">
+                            <img src="./img/about-us.png" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title" data-aos="fade-down" data-aos-duration="700" data-aos-offset="300">
+                        <h2 class="text-uppercase pt-5" id="apropos">
+                            <span>A PROPOS</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="param">
+                                J'ai suivi une formation d'ingénieur en génie électrique de l'Ecole Supérieure Polytechnique d'Antananarivo.
+                                A part mes connaissance ascquis pendant mes formations d'ingénieur, j'ai suivi des formations en linge en python, en data science, en data mining et en data engineer dans des sites comme UDEMY, PIRPLE.
+                                Je suis freelancer dans nombreux sites de freelance comme codeur.com, freelancer.com et 5euros.com.
+
+                            </p>
+                            <p class="param">
+                                Passionné par le monde de l'informatique et des technologies modernes, je suis motivé à intégrer dans une société qui évolue autours de ce domaine
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 about-title" data-aos="fade-down" data-aos-duration="700" data-aos-offset="350">
+                        <h2 class="text-uppercase pt-5" id="parcours">
+                            <span>PARCOURS</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="param">
+                                Pour forger mes connaissances acquis durant mes études universitaires, j'ai suivant des cours en ligne dans des sites réconnus mondialement
+                            </p>
+                            <p class="linx">
+                                &#128071;&#127998; Cliquer ici &#128071;&#127998; <br/> 
+                                <a href="https://www.pirple.com/certificates/msrwczbxyu" target="_blank">Certificat Python<br/></a>
+                                <a href="https://www.udemy.com/certificate/UC-6d297db2-afdb-49df-ac18-9c9afef27415/" target="_blank">Certificat en Machine Learning et Data science</a>
+                            </p>
+                            <p class="param">
+                             J'ai réalisé de nombreux projet en data science, en python et eventuellement en javascipt: jeux 2D en python, prediction prix de vente des maisons, prédictions prix de vente des voitures, porte folio, jeux de carte multijoueur avec python (console)...
+                               
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-duration="700" data-aos-offset="350">
+                        <div class="about-image2">
+                            <img src="./img/angrenage (1).png" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ========================= Project Area ==========================  -->
+        <section class="my-project">
+            <div class="container">
+                <div class="project-title pb-5">
+                    <h1 class="text-uppercase title-h1" id="project">MY PROJECTS</h1>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 " data-aos="zoom-out" data-aos-duration="600" data-aos-offset="350">
+                            <h2 class="text-datascience">SITE WEB</h2>
+                                <h3 class="title-project">MON PORTEFOLIO</h3>
+                        
+                            <p>
+                                <img src="project/portefolio.png">
+                            </p>
+                            <p>
+                                <button id="project1">Cliquer ici pour plus d'info</button>
+                            </p>
+                             
+                            <div id="text-project1">
+                                <p>J'ai crée mon propre portefolio pour la visibilité de mes projets et mes compétences.
+                                    C'est un site web dynamique où on trouve les "text cloud", l'isotrope...
+                                    Pour la réalisation de ce projet, j'ai utilisé différents langages informatiques et script comme:
+                                    <ul class="list-lang">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>BOOTSTRAP</li>
+                                        <li>JAVASCRIPT</li>
+                                        <li>JQUERY</li>
+                                        <li>AOS</li>
+                                    </ul>
+                                    <a href="https://github.com/isalotra/isalotra.github.io" target="_blank">Cliquez ici pour allez dans le projet</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 " data-aos="zoom-out" data-aos-duration="600" data-aos-offset="350">
+                                <h2 class="text-datascience">PYTHON</h2>
+                                    <h3 class="title-project">PONCTUALITÉ DES AVIONS (Freelance)</h3>
+                            
+                                <p>
+                                    <img src="project/projet_graphe.png">
+                                </p>
+                                
+                                <p>
+                                    <button id="project2">Cliquer ici pour plus d'info</button>
+                                </p>
+                                 
+                                <div id="text-project2">
+                                    <p>Ce projet est un problème en que j'ai résolu grâce à python, un marché que j'ai obtenu par un client dans le site freelance 5euros.com.
+                                        Ce projet choisi l'aéroport de Paris en fonction des déstinations (calculer à partir de la durée moyenne des vols).
+
+                                        Pour la réalisation de ce projet, j'ai utilisé différents bibliothèques python comme:
+                                        <ul class="list-lang">
+                                            <li>NUMPY</li>
+                                            <li>MATPLOTLIB</li>
+                                            <li>PANDAS</li>
+                                            <li>SPICY</li>
+                                            <li>NETWORKX</li>
+                                        </ul>
+                                    <a href="https://github.com/isalotra/avion" target="_blank">Cliquez ici pour allez dans le projet</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 " data-aos="zoom-out" data-aos-duration="600" data-aos-offset="90">
+                            <h2 class="text-datascience">DATA SCIENCE</h2>
+                                <h3 class="title-project">PREDICTION DE PRIX DE VOITURES</h3>
+                        
+                            <p>
+                                <img src="project/pred_voiture.png">
+                            </p>
+
+                            
+                            <p>
+                                <button id="project3">Cliquer ici pour plus d'info</button>
+                            </p>
+                             
+                            <div id="text-project3">
+                                <p>C'est un problème de regression linéaire en data science.
+                                    Pour la réalisation de ce projet, j'ai utilisé différents bibliothèques python comme:
+                                    <ul class="list-lang">
+                                        <li>PANDAS</li>
+                                        <li>NUMPY</li>
+                                        <li>SKLEARN</li>
+                                        <li>MATPLOTLIB</li>
+                                    </ul>
+                                <a href="https://github.com/isalotra/pred_voiture" target="_blank">Cliquez ici pour allez dans le projet</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 " data-aos="zoom-out" data-aos-duration="600" data-aos-offset="90">
+                                <h2 class="text-datascience">DATA SCIENCE</h2>
+                                    <h3 class="title-project">PREDICTION DE PRIX DE MAISONS</h3>
+                            
+                                <p>
+                                    <img src="project/pred_maison.png">
+                                </p>
+                                
+                                <p>
+                                    <button id="project4">Cliquer ici pour plus d'info</button>
+                                </p>
+                                 
+                                <div id="text-project4">
+                                    <p>C'est un problème de regression linéaire en data science.
+                                    Pour la réalisation de ce projet, j'ai utilisé différents bibliothèques python comme:
+                                    <ul class="list-lang">
+                                        <li>PANDAS</li>
+                                        <li>NUMPY</li>
+                                        <li>SKLEARN</li>
+                                        <li>MATPLOTLIB</li>
+                                    </ul>
+                                    <a href="https://github.com/isalotra/pred_maison" target="_blank">Cliquez ici pour allez dans le projet</a>
+                                </p>
+                                </div>
+                            </div>
+
+
+                     <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 " data-aos="zoom-out" data-aos-duration="600" data-aos-offset="90">
+                            <h2 class="text-datascience">PYGAME (PYTHON)</h2>
+                                <h3 class="title-project">JEU VIDÉO 2D</h3>
+                        
+                            <p>
+                                <img src="project/jeu.png">
+                            </p>
+
+                            
+                            <p>
+                                <button id="project5">Cliquer ici pour plus d'info</button>
+                            </p>
+                             
+                            <div id="text-project5">
+                                <p>C'est un jeu 2D que j'ai conçu grace à Pygame qui est une librairie de Python pour faire des jeu
+                                    Pour la réalisation de ce projet, j'ai utilisé différents bibliothèques python comme:
+                                    <ul class="list-lang">
+                                        <li>PYTHON</li>
+                                        <li>PYGAME</li>
+                                    </ul>
+                                <a href="https://github.com/isalotra/jeu" target="_blank">Cliquez ici pour allez dans le projet</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 " data-aos="zoom-out" data-aos-duration="600" data-aos-offset="90">
+                                <h2 class="text-datascience">DATA SCIENCE</h2>
+                                    <h3 class="title-project">PREDICTION DU MARCHÉ BOUSIER (en cours)</h3>
+                            
+                                <p>
+                                    <img src="project/pred_boursier.png">
+                                </p>
+                                
+                                <p>
+                                    <button id="project6">Cliquer ici pour plus d'info</button>
+                                </p>
+                                 
+                                <div id="text-project6">
+                                    <p>Ce projet est encore en cours.</p>
+                                </div>
+                            </div>
+            </div>
+        </section>
+        
+        <!--  ======================= End Project Area =============================  -->
+
+        <section class="project-area">
+            <div class="container">
+                <div class="project-title pb-5">
+                    <h1 class="text-uppercase title-h1" id="competence">LANGAGES DE PROGRAMMATIONS</h1>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="active" id="btn1" data-filter="*">ALL</button>
+                    <button type="button" data-filter=".popular">DATA SCIENCE & MACHINE LEARNING</button>
+                    <button type="button" data-filter=".latest">APP MOBILE</button>
+                    <button type="button" data-filter=".following">DEV WEB</button>
+                    <button type="button" data-filter=".tools">TOOLS</button>
+                </div>
+                <div>
+                    <p>
+
+
+                    </p>
+                </div>
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
+                                    <img src="./img-langage/python.png" alt="portfolio-1" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">PYTHON</h4>
+                                <span class="text-secondary">Langage de programmation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p4.jpg">
+                                    <img src="./img-langage/kotlin.png" alt="portfolio-4" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">KOTLIN</h4>
+                                <span class="text-secondary">Application mobile (initiation)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item tools">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p2.jpg">
+                                    <img src="./img-langage/vscode.png" alt="portfolio-2" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">VS CODE</h4>
+                                <span class="text-secondary">Outil de développement</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p3.jpg">
+                                    <img src="./img-langage/sql.png" alt="portfolio-3" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">SQL</h4>
+                                <span class="text-secondary">Database</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p4.jpg">
+                                    <img src="./img-langage/excel.png" alt="portfolio-4" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">VBA EXCEL</h4>
+                                <span class="text-secondary">Outil de devéloppement</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item tools">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p2.jpg">
+                                    <img src="./img-langage/pycharm.png" alt="portfolio-2" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">PYCHARM</h4>
+                                <span class="text-secondary">Logiciel de développement Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p6.jpg">
+                                    <img src="./img-langage/js.png" alt="portfolio-6" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">JAVASCRIPT</h4>
+                                <span class="text-secondary">Langage de programmation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">
+                                    <img src="./img-langage/html.png" alt="portfolio-7" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">HTML</h4>
+                                <span class="text-secondary">SCRIPT</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p8.jpg">
+                                    <img src="./img-langage/mongodb.png" alt="portfolio-8" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">MONGODB</h4>
+                                <span class="text-secondary">Database</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">
+                                    <img src="./img-langage/css.png" alt="portfolio-7" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">CSS</h4>
+                                <span class="text-secondary">SCRIPT</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item tools">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p2.jpg">
+                                    <img src="./img-langage/mysql.png" alt="portfolio-2" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">MYSQL</h4>
+                                <span class="text-secondary">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item tools">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p3.jpg">
+                                    <img src="./img-langage/androidstudio.png" alt="portfolio-3" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">ANDROID STUDIO</h4>
+                                <span class="text-secondary">Outil de développement d'application mobile</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================= End Project Area =============================  -->
+        
+        
+       <!--  ======================== About Me Area ==============================  -->
+
+</main>
+    <!--  ======================= End Main Area ================================ -->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="footer-content">
+                        <h3 id="contact">Porte folio</h3>
+                        <p>Imagination is more important than knowledge</p>
+                        <ul class="socials">
+                            <li class="bulle"><a href="https://web.facebook.com/messages/t/100017446234691" target="_blank"><img src="ressources/fb.svg" class="logo-medias"></a></li>
+                            <li class="bulle"><a href="mailto:isalotra.kikia@gmail.com" target="_blank"><img src="ressources/gmail.svg" class="logo-medias"></a></li>
+                            <li class="bulle"><a href="https://www.linkedin.com/in/isalotra-rakotoniaina-b43932184/" target="_blank"><img src="ressources/linkdin.svg" class="logo-medias"></a></li>
+                            <li class="bulle"><a href="https://wa.me/261347406359" target="_blank"><img src="ressources/whatsapp.svg" class="logo-medias"></a></li>
+                            <li class="bulle"><a href="https://github.com/isalotra" target="_blank"><img src="ressources/github.svg" class="logo-medias"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="footer-bottom">
+                        <p>copyright &copy;2021. developed by <span>Isalotra</span></p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    </footer>
+
+
+    <!--  Jquery js file  -->
+    <script src="./js/jquery.3.4.1.js"></script>
+
+    <!--  Bootstrap js file  -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--  isotope js library  -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+
+
+    <!--  custom js file  -->
+    <script src="js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="text_animation.js"></script>
+    <script src="formulaire.js"></script>
+    <script src="./text-appear/text-appear.js"></script>
+
+    <script src="aos/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+    </script>
+</body>
+
+</html>
